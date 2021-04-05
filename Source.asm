@@ -11,7 +11,7 @@ include Irvine32.inc
 
 .code
 main PROC
-	                ;w=(x+y)-(50 + x + y + z - p)
+	;w=(x+y)-(50 + x + y + z - p)
 	mov eax , x     ; eax=x
 	add eax , y     ;eax=x+y
 	mov ebx , 50d   ;ebx=50
